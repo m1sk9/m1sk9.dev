@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Koruri';
+  src: url('https://cdn.plusminus.io/font/webkoruri/20140628/WebKoruri.eot');
+  src: url('https://cdn.plusminus.io/font/webkoruri/20140628/WebKoruri.eot?#iefix') format('embedded-opentype');
+  src: url('https://cdn.plusminus.io/font/webkoruri/20140628/WebKoruri.woff') format('woff'),
+       url('https://cdn.plusminus.io/font/webkoruri/20140628/WebKoruri.ttf') format('truetype');
+}
+
+body {
+  font-family: "Koruri";
+  font-size: 14px;
+  margin-left: 20px;
+}
+
+h2 {
+  font-size: 16px;
+}
