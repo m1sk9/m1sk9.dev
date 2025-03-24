@@ -1,14 +1,6 @@
-@font-face {
-  font-family: 'Koruri';
-  src: url('https://cdn.plusminus.io/font/webkoruri/20140628/WebKoruri.eot');
-  src: url('https://cdn.plusminus.io/font/webkoruri/20140628/WebKoruri.eot?#iefix') format('embedded-opentype');
-  src: url('https://cdn.plusminus.io/font/webkoruri/20140628/WebKoruri.woff') format('woff'),
-       url('https://cdn.plusminus.io/font/webkoruri/20140628/WebKoruri.ttf') format('truetype');
-}
-
 body {
-  font-family: "Koruri";
-  font-size: 14px;
+  font-family: "IBM Plex Sans JP", sans-serif;
+  font-size: 13px;
   margin-left: 20px;
 }
 
