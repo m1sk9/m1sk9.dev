@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <title>self-hosted | m1sk9.dev</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta property="og:title" content="m1sk9.dev" />
+    <meta property="og:description" content="0xAlice" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://m1sk9.dev" />
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div>
+      <h2>Self-hosted</h2>
+    </div>
+
+    <section>
+      <h4>Mechine</h4>
+      <p>これらのマシンには Tailscale を利用した VPN で接続できます．</p>
+      <ul>
+        <li>
+          dev-m1sk9-s1 (自宅鯖1)
+          <ul>
+            <li>
+              Arch Linux, Intel Celeron 3855U
+            </li>
+            <li>
+              自宅で稼働しているサーバ機．そこらへんに転がってたものなのでスペックがそんなに高くない．
+            </li>
+            <li>
+              Tailscale の GitHub Actions を使ったなんちゃって CD がある．Renovate によるイメージの自動更新目的． (<a href="https://github.com/merutech/compose">merutech/compose</a>)
+            </li>
+            <li>
+              Kavita, Vaultwarden, babyrite がそれぞれ稼働中．
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h4>Services</h4>
+      <p>私が現在行っている self-hosted の情報一覧です．それぞれ接続には Tailscale や Cloudflare Zero Trust などの認証基盤が必要になります．</p>
+      <ul>
+        <li>
+          babyrite
+          <ul>
+            <li>日頃メンテナンスをしている引用Bot．一部の友人向けに公開しています．一般公開はしていません．</li>
+          </ul>
+        </li>
+        <li>
+          Kavita - kavita.m1sk9.dev
+          <ul>
+            <li>電子作品等を保存している (ちゃんと買ってるよ)</li>
+          </ul>
+        </li>
+        <li>
+          Vaultwarden - vw.m1sk9.dev
+          <ul>
+            <li>1Password 卒業目的で現在セルフホスト中．私の Tailnet に接続している Tailscale でのみアクセス可能．</li>
+            <li>一部の友人には公開している．</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+  </body>
+</html>
