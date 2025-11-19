@@ -44,7 +44,7 @@ display_bio = false
 display_avatar = false
 
 links = [
-  { name = "GitHub", icon = "github", url = "https://github.com/m1sk9/blog.m1sk9.dev" },
+  { name = "GitHub", icon = "github", url = "https://github.com/m1sk9/m1sk9.dev" },
 ]
 
 recent = true
@@ -54,7 +54,7 @@ recent_more_text = "more »"
 sections = [
   { name = "Posts", path = "/posts", is_external = false },
   { name = "Tags", path = "/tags", is_external = false },
-  { name = "Github", path = "https://github.com/m1sk9/blog.m1sk9.dev", is_external = true },
+  { name = "GitHub", path = "https://github.com/m1sk9/m1sk9.dev", is_external = true },
 ]
 blog_section_path = "/posts"
 
