@@ -24,7 +24,7 @@ I am a university student majoring in computer science, with a particular intere
 
 ## Affiliations
 
-- [Lyralis](https://github.com/lyralis), A creative club centered around engineers.
+- [Lyralis](https://lyralis.org), An underground creative collective where engineers gather to build the future.
 
 ## Interests
 
