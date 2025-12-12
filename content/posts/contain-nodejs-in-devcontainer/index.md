@@ -96,14 +96,14 @@ FROM node:24.11.1
 これで Node.js v24.11.1 を使う DevContainer の完成です．
 起動するには VSCode のコマンドパレットから "Dev Containers: Reopen in Container" を実行します．
 
-![](/media/posts/contain-nodejs-in-devcontainer/vscode-1.png)
+![](vscode-1.png)
 <div style="text-align: center; font-size: 0.80em; color: #888; margin-top: 8px;">
     イメージの更新や設定変更をしたら "Rebuild and Reopen in Container" を実行しよう
 </div>
 
 すると Docker Image のビルド， DevContainer のインストールが行われ，VSCode がコンテナに接続します．
 
-![](/media/posts/contain-nodejs-in-devcontainer/vscode-2.png)
+![](vscode-2.png)
 <div style="text-align: center; font-size: 0.80em; color: #888; margin-top: 8px;">
     パッと見は SSH Remote と同じ
 </div>
@@ -126,9 +126,9 @@ server.listen(PORT, () => {
 
 ポートは自動的に Forward されるので，コンテナ内でサーバーを起動すれば，ローカルホストからアクセスできます．
 
-![](/media/posts/contain-nodejs-in-devcontainer/vscode-3.png)
+![](vscode-3.png)
 
-![](/media/posts/contain-nodejs-in-devcontainer/firefox.png)
+![](firefox.png)
 <div style="text-align: center; font-size: 0.80em; color: #888; margin-top: 8px;">
     簡単だね!
 </div>
@@ -139,7 +139,7 @@ Node.js のプロジェクトでは `node_modules` ディレクトリが大量�
 
 デフォルトの DevContainer の挙動では，ホストのプロジェクトディレクトリがコンテナ内にマウントされるため，`node_modules` もホストに作成されてしまいます．
 
-![](/media/posts/contain-nodejs-in-devcontainer/nodejs-meme.png)
+![](nodejs-meme.png)
 <div style="text-align: center; font-size: 0.80em; color: #888; margin-top: 8px;">
     node_modules black hole
 </div>
