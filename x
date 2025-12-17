@@ -5,13 +5,13 @@ if [ "$#" -ne 1 ]; then
     exit 1
 fi
 
-filename=$1
+post_name=$1
 template="_template.md"
-destination="./content/posts/"
+destination="./content/posts/${post_name}"
 
 if [ ! -d "$destination" ]; then
     mkdir -p "$destination"
 fi
 
-cp "$template" "${destination}${filename}.md"
-echo "Created ${destination}${filename}.md from $template"
+cp "$template" "${destination}/index.md"
+echo "Created ${destination}/index.md from $template"
