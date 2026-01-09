@@ -39,8 +39,8 @@ id = "m1sk9"
 bio = "Only what I want to do."
 avatar = "/media/avatar.jpg"
 
-display_id = false
-display_bio = false
+display_id = true
+display_bio = true
 display_avatar = false
 
 links = [
@@ -53,8 +53,10 @@ recent_more_text = "more »"
 
 sections = [
   { name = "Posts", path = "/posts", is_external = false },
-  { name = "Tags", path = "/tags", is_external = false },
-  { name = "GitHub", path = "https://github.com/m1sk9/m1sk9.dev", is_external = true },
+  # { name = "Tags", path = "/tags", is_external = false },
+  { name = "Projects", path = "/projects", is_external = false },
+  { name = "Slides", path = "/slides", is_external = false },
+  { name = "Repo", path = "https://github.com/m1sk9/m1sk9.dev", is_external = true },
 ]
 blog_section_path = "/posts"
 
