@@ -20,6 +20,8 @@ recent_more_text = "read more »"
 date_format = "%b %-d, %Y"
 +++
 
+Other Content: [babyrite](/babyrite)
+
 I am a university student majoring in computer science, with a particular interest in statically typed languages and computer security.
 
 ## Affiliations
