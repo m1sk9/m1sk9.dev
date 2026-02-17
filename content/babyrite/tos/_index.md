@@ -8,6 +8,10 @@ title = "babyrite: Terms of Service"
 subtitle = "Detailed Information about babyrite Terms of Service"
 +++
 
+> このページは日本語版です。
+>
+> English version is available [here](/babyrite/en/tos).
+
 **最終更新日: 2026年2月17日**
 
 ## 1. 規約への同意
