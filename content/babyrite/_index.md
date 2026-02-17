@@ -20,6 +20,7 @@ babyriteはメッセージリンクのメッセージ / GitHub PermaLink の内�
 - [ステータスページ](https://status.m1sk9.dev/status/s1)
 - [利用規約](/babyrite/tos)
 - [プライバシーポリシー](/babyrite/privacy)
+- [サポートサーバ](https://discord.gg/P4YGGMgPzc)
 
 ## 特徴
 

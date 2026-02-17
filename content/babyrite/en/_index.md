@@ -20,6 +20,7 @@ babyrite is a Discord bot that allows you to easily forward message link content
 - [Status Page](https://status.m1sk9.dev/status/s1)
 - [Terms of Service](/babyrite/en/tos)
 - [Privacy Policy](/babyrite/en/privacy)
+- [Support Server](https://discord.gg/P4YGGMgPzc)
 
 ## Features
 
