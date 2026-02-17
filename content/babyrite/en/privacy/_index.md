@@ -8,6 +8,10 @@ title = "babyrite: Privacy Policy"
 description = "Detailed Information about babyrite Privacy Policy"
 +++
 
+> This page is in English.
+>
+> 日本語版は [こちら](/babyrite/privacy) からアクセスできます。
+
 **Last Updated: February 17, 2026**
 
 ## 1. Introduction
