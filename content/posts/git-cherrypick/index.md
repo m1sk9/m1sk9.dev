@@ -45,7 +45,7 @@ commit hash は `git log` で確認するのもいいし， GitHub からでも�
 
 (GUI 主義者はぜひ GitHub からコピーしよう．)
 
-```shell
+```bash
 commit c0fd6e4c28967a66969cade0a212d7cee6d2728c
 
 Author: Sho Sakuma <me@m1sk9.dev> Date: Tue Jan 20 20:37:02 2026 +0900 test: Add Kana Conversion Test
