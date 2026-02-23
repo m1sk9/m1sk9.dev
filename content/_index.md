@@ -20,13 +20,7 @@ recent_more_text = "read more »"
 date_format = "%b %-d, %Y"
 +++
 
-Other Content: [babyrite](/babyrite)
-
 I am a university student majoring in computer science, with a particular interest in statically typed languages and computer security.
-
-## Affiliations
-
-- [Lyralis](https://lyralis.org), An underground creative collective where engineers gather to build the future.
 
 ## Interests
 
@@ -39,12 +33,9 @@ I am a university student majoring in computer science, with a particular intere
 
 - Rust
 - Arch Linux
-- Ramen, Udon (family-style and miso ramen!)
 - Cats
-- Music (J-POP and Western music in general. Various genres including idols and hyperpop.)
-  - [Utada Hikaru](https://open.spotify.com/artist/7lbSsjYACZHn1MSDXPxNF2), [indigo la End](https://open.spotify.com/artist/26ZBeXl5Gqr3TAv2itmyCU), [Mrs. Green Apple](https://open.spotify.com/artist/4QvgGvpgzgyUOo8Yp8LDm9), [Ryokuoushoku Shakai](https://open.spotify.com/artist/4SJ7qRgJYNXB9Yttzs4aSa), [CUTIE STREET](https://open.spotify.com/artist/3PLCOySHJ9zwED5yZvDtPZ), [FRUITS ZIPPER](https://open.spotify.com/artist/4v5IVXt3oH0iNuxW9O36BV), [=LOVE](https://open.spotify.com/artist/1j2WhcTW00Zd2SjFYsJVc6) and more!
-- Drama: Unnatural, MIU404, [Emergency Interrogation Room](https://www.tv-asahi.co.jp/kintori/)
-- Game: [KINGDOM HEARTS](https://www.jp.square-enix.com/kingdom/), [Like a Dragon](https://ryu-ga-gotoku.com/), [Final Fantasy](https://jp.finalfantasy.com/), [Persona](https://p-ch.jp/)
+- Music (Alternative rock, Loud rock, Hip-hop, Idol music, etc.)
+- Alcohol
 
 ## Skills
 
