@@ -1,0 +1,20 @@
+GPG Key Transition Statement
+Date: 2026-03-15
+
+I, Sho Sakuma, am transitioning my GPG key to a new one.
+
+Old key fingerprint: ABB3 904C 7263 155D 9F5C 34A3 198F 1B4D 8D77 678F
+  (Revoked on 2026-03-15)
+
+New key fingerprint: 9700 B737 B525 70D7 B783 94E5 2DF1 A76B 8DC2 D6E3
+
+The old key has been revoked. Please update your keyring accordingly.
+
+The old private key is no longer available, so only the new key signature
+is provided. Identity can be verified via:
+  - https://keys.openpgp.org/search?q=me%40m1sk9.dev
+  - https://github.com/m1sk9
+  - https://m1sk9.dev
+
+-- Sho Sakuma
+   me@m1sk9.dev
