@@ -1,6 +1,9 @@
 # m1sk9.dev
 
-Personal portfolio and blog by [m1sk9](https://github.com/m1sk9), built with [Zola](https://www.getzola.org/) and the [Serene](https://github.com/isunjn/serene) theme.
+[![CI](https://github.com/m1sk9/m1sk9.dev/actions/workflows/ci.yaml/badge.svg)](https://github.com/m1sk9/m1sk9.dev/actions/workflows/ci.yaml)
+[![Deploy](https://github.com/m1sk9/m1sk9.dev/actions/workflows/cd.yaml/badge.svg)](https://github.com/m1sk9/m1sk9.dev/actions/workflows/cd.yaml)
+
+Personal portfolio and blog by [m1sk9](https://github.com/m1sk9), built with [Zola](https://www.getzola.org/) and the [Serene](https://github.com/isunjn/serene) theme (Serene has been partially customized).
 
 ## Prerequisites
 
@@ -27,4 +30,8 @@ Output is written to the `build/` directory.
 
 ## License
 
-Content © 2024-2026 m1sk9
+m1sk9.dev is published under [MIT License](./LICENSE).
+
+<sub>
+    ® 2024 - 2026 m1sk9
+</sub>
