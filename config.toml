@@ -52,10 +52,8 @@ recent_max = 5
 recent_more_text = "more »"
 
 sections = [
-  { name = "Posts", path = "/posts", is_external = false },
-  # { name = "Tags", path = "/tags", is_external = false },
-  { name = "Projects", path = "/projects", is_external = false },
-  { name = "Slides", path = "/slides", is_external = false },
+  { name = "Blog", path = "/posts", is_external = false },
+  { name = "Tags", path = "/tags", is_external = false },
   { name = "Repo", path = "https://github.com/m1sk9/m1sk9.dev", is_external = true },
 ]
 blog_section_path = "/posts"
@@ -84,7 +82,7 @@ nav_wrapper_left = "{"
 nav_wrapper_right = "} ;"
 nav_wrapper_separator = ","
 
-footer_copyright = "© 2024-2025 m1sk9"
+footer_copyright = "© 2024-2026 m1sk9"
 footer_credits = true
 
 not_found_title = "404"
