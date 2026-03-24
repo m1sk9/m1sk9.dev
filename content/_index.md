@@ -6,7 +6,6 @@ lang = 'en'
 footer = true
 name = "Sho Sakuma"
 id = "m1sk9"
-bio = "Only what I want to do."
 avatar = "/media/avatar.jpg"
 links = [
     { name = "GitHub", icon = "github", url = "https://github.com/m1sk9" },
@@ -15,44 +14,21 @@ links = [
 ]
 
 recent = true
-recent_max = 15
+recent_max = 3
 recent_more_text = "read more »"
 date_format = "%b %-d, %Y"
 +++
 
-I am a university student majoring in computer science, with a particular interest in statically typed languages and computer security.
+I'm a software engineer and university student majoring in computer science, with a particular interest in statically typed languages and the intersection of AI safety and security.
 
-## Interests
+I work on backend services and infrastructure professionally, and maintain open-source projects including [babyrite](https://github.com/m1sk9/babyrite), a self-hosted Discord bot built with Rust; and [LunaticChat](https://github.com/m1sk9/LunaticChat), a channel chat plugin for Minecraft Paper/Velocity written in Kotlin.
 
-- Static typing
-- Cryptography
-- Security
-- Web
-
-## Loves
-
-- Rust
-- Arch Linux
-- Cats
-- Music (Alternative rock, Loud rock, Hip-hop, Idol music, etc.)
-- Alcohol
-
-## Skills
-
-- Programming Languages: Rust, TypeScript, JavaScript, Java, Kotlin, Python
-- Web Technologies: HTML, CSS, React, Node.js
-- Tools & Platforms: Docker, Git, GitHub, GitHub Actions, Linux
-
-## Links
+If you have any inquiries, please contact [me[@]m1sk9.dev](mailto:me@m1sk9.dev).
 
 - GitHub: [@m1sk9](https://github.com/m1sk9)
 - Mastodon: [@m1sk9@mstdn.maud.io](https://mstdn.maud.io/@m1sk9)
 - Email: [me[@]m1sk9.dev](mailto:me@m1sk9.dev)
 - ORCID: [Sho Sakuma (0009-0000-8388-4558)](https://orcid.org/0009-0000-8388-4558)
-
-## Contact
-
-If you have any inquiries, please contact [me[@]m1sk9.dev](mailto:me@m1sk9.dev).
 
 ----
 
