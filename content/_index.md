@@ -26,6 +26,7 @@ I work on backend services and infrastructure professionally, and maintain open-
 If you have any inquiries, please contact [me[@]m1sk9.dev](mailto:me@m1sk9.dev).
 
 - GitHub: [@m1sk9](https://github.com/m1sk9)
+- X: [@m1sk922](https://x.com/m1sk922)
 - Mastodon: [@m1sk9@mstdn.maud.io](https://mstdn.maud.io/@m1sk9)
 - Email: [me[@]m1sk9.dev](mailto:me@m1sk9.dev)
 - ORCID: [Sho Sakuma (0009-0000-8388-4558)](https://orcid.org/0009-0000-8388-4558)
