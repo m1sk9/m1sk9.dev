@@ -45,7 +45,6 @@ display_avatar = false
 
 links = [
   { name = "GitHub", icon = "github", url = "https://github.com/m1sk9/m1sk9.dev" },
-  { name = "Twitter", icon = "twitter", url = "https://x.com/m1sk922" },
 ]
 
 recent = true
