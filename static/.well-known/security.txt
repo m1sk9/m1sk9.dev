@@ -1,0 +1,16 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Contact: mailto:me@m1sk9.dev
+Encryption: https://keys.openpgp.org/vks/v1/by-fingerprint/9700B737B52570D7B78394E52DF1A76B8DC2D6E3
+Preferred-Languages: ja, en
+Canonical: https://m1sk9.dev/.well-known/security.txt
+Expires: 2027-06-02T00:00:00Z
+-----BEGIN PGP SIGNATURE-----
+
+iJEEARYKADkWIQQyt17uXc710IEt77wJsP/RrxVZKAUCah5SThsUgAAAAAAEAA5t
+YW51MiwyLjUrMS4xMiwwLDMACgkQCbD/0a8VWSiU3gD9EaE29UbHxX7DEYExh9ep
+F3OKAyJzbnoNz1sAXpcbMtMA/AjXriUNoPxQhq4OoN+h9J0Ee2QirkJGfE4/PU7t
+PIMA
+=Vu1s
+-----END PGP SIGNATURE-----
