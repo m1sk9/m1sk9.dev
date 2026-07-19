@@ -4,7 +4,6 @@ date = 2026-01-14
 # updated =
 description = "真相をお話しします"
 [taxonomies]
-categories = ["Dev"]
 tags = ["environment"]
 [extra]
 lang = "ja"

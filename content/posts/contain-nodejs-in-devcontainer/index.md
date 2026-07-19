@@ -4,7 +4,6 @@ date = 2025-12-10
 # updated =
 description = "もはやマルウェア配布プラットフォーム"
 [taxonomies]
-categories = ["Dev"]
 tags = ["docker", "web", "nodejs"]
 [extra]
 lang = "ja"
