@@ -4,7 +4,6 @@ date = 2025-12-17
 # updated =
 description = "みんなが思ってるほど楽じゃないって話をしたい"
 [taxonomies]
-categories = ["Minecraft"]
 tags = ["minecraft"]
 [extra]
 lang = "ja"
