@@ -1,2 +1,5 @@
 [tools]
 zola = "0.21.0"
+# npm backend, so this relies on the ambient node. Not pinned here because both the
+# GitHub runner image and the global mise config already provide node 24.
+wrangler = "4.114.0"
