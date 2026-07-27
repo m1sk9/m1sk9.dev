@@ -1,0 +1,13 @@
+{
+  "name": "m1sk9-dev",
+  "compatibility_date": "2026-07-27",
+  "assets": {
+    "directory": "./build"
+  },
+  // Not managed by cloudflare_workers_script_subdomain in the infra repo: wrangler
+  // touches the subdomain on every deploy, so keeping it here avoids Terraform and
+  // wrangler fighting over the same setting. The custom domain (m1sk9.dev) stays in
+  // Terraform because it is stable.
+  "workers_dev": false,
+  "preview_urls": false
+}
