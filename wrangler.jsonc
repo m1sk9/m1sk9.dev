@@ -2,7 +2,10 @@
   "name": "m1sk9-dev",
   "compatibility_date": "2026-07-27",
   "assets": {
-    "directory": "./build"
+    "directory": "./build",
+    // Without this the runtime answers unmatched paths with an empty 404 body,
+    // whereas GitHub Pages served the 404.html that Zola generates.
+    "not_found_handling": "404-page"
   },
   // Not managed by cloudflare_workers_script_subdomain in the infra repo: wrangler
   // touches the subdomain on every deploy, so keeping it here avoids Terraform and
