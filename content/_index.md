@@ -14,7 +14,7 @@ links = [
 ]
 
 recent = true
-recent_max = 3
+recent_max = 20
 recent_more_text = "read more »"
 date_format = "%b %-d, %Y"
 +++
