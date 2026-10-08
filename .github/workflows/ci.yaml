@@ -20,3 +20,14 @@ jobs:
 
       - name: Build with Zola
         run: zola build
+
+      - name: Check Discord component embeds
+        run: |
+          for f in build/index.html build/posts/index.html build/pythia/index.html; do
+            payload=$(perl -0ne 'print $1 if /<script id="discord:component-embed" type="application\/json">(.*?)<\/script>/s' "$f")
+            [ -n "$payload" ] || { echo "::error file=$f::component embed payload not found"; exit 1; }
+            printf '%s' "$payload" | jq -e '.component.type == 17' >/dev/null || { echo "::error file=$f::invalid component embed JSON"; exit 1; }
+            size=$(printf '%s' "$payload" | wc -c)
+            [ "$size" -le 3000 ] || { echo "::error file=$f::component embed is $size bytes (limit 3000)"; exit 1; }
+            echo "$f: $size bytes"
+          done

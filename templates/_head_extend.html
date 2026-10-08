@@ -1,0 +1,29 @@
+{%- if current_path is defined and current_path in ["/", "/posts/", "/pythia/"] -%}
+{%- set nl = "
+" -%}
+{%- if section.path == "/" -%}
+{%- set og_title = config.title -%}
+{%- set og_description = config.description -%}
+{%- elif section.path == "/posts/" -%}
+{%- set og_title = "Posts | " ~ config.title -%}
+{%- set og_description = "Latest posts on m1sk9.dev" -%}
+{%- else -%}
+{%- set og_title = section.extra.title ~ " | " ~ config.title -%}
+{%- set og_description = "m1sk9 の Discord サーバーで運用している LLM Bot「Pythia」の使い方" -%}
+{%- endif %}
+<meta property="og:title" content="{{ og_title }}" />
+<meta property="og:description" content="{{ og_description }}" />
+<meta property="og:url" content="{{ section.permalink | safe }}" />
+<meta property="og:image" content="{{ get_url(path=config.extra.avatar) }}" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<script id="discord:component-embed" type="application/json">
+{%- if section.path == "/" -%}
+{% include "discord_embed/home.html" %}
+{%- elif section.path == "/posts/" -%}
+{% include "discord_embed/posts.html" %}
+{%- else -%}
+{% include "discord_embed/pythia.html" %}
+{%- endif -%}
+</script>
+{%- endif -%}
