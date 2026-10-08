@@ -1,0 +1,19 @@
+{%- set heading = "## [Posts](" ~ section.permalink ~ ")" ~ nl ~ og_description -%}
+{"component":{"type":17,"components":[
+{"type":10,"content":{{ heading | json_encode() | safe }}},
+{"type":14,"divider":true,"spacing":1},
+{%- for post in section.pages | slice(end=3) -%}
+{%- set posted_on = post.date | date(format="%b %-d, %Y") -%}
+{%- set summary = "### [" ~ post.title ~ "](" ~ post.permalink ~ ")" ~ nl ~ "-# " ~ posted_on -%}
+{%- if post.description -%}
+{%- set excerpt = post.description | truncate(length=80) -%}
+{%- set summary = summary ~ nl ~ excerpt -%}
+{%- endif -%}
+{"type":9,"components":[{"type":10,"content":{{ summary | json_encode() | safe }}}],"accessory":{"type":2,"style":5,"label":"Read","url":{{ post.permalink | json_encode() | safe }}}},
+{%- endfor -%}
+{"type":14,"divider":true,"spacing":1},
+{"type":1,"components":[
+{"type":2,"style":5,"label":"All posts","url":{{ section.permalink | json_encode() | safe }}},
+{"type":2,"style":5,"label":"Tags","url":{{ get_url(path="tags/", trailing_slash=true) | json_encode() | safe }}},
+{"type":2,"style":5,"label":"RSS","url":{{ get_url(path="posts/feed.xml") | json_encode() | safe }}}
+]}]}}
