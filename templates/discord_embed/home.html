@@ -1,6 +1,6 @@
 {%- set heading = "## [" ~ config.extra.name ~ "](" ~ section.permalink ~ ")" ~ nl ~ "@" ~ config.extra.id ~ " · " ~ config.extra.bio -%}
 {%- set links = section.extra.links | filter(attribute="icon", value="github") | concat(with=section.extra.links | filter(attribute="icon", value="mastodon")) -%}
-{"component":{"type":17,"components":[
+{"component":{"type":17,"accent_color":7311313,"components":[
 {"type":9,"components":[{"type":10,"content":{{ heading | json_encode() | safe }}},{"type":10,"content":{{ og_description | json_encode() | safe }}}],"accessory":{"type":11,"media":{"url":{{ get_url(path=config.extra.avatar) | json_encode() | safe }}}}},
 {"type":14,"divider":true,"spacing":1},
 {"type":1,"components":[
