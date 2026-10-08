@@ -32,8 +32,6 @@ comment = false
 
 ----
 
-**注意:** 現在試験運用中です．予告なく仕様が変更されたりサービスが停止する可能性があります．
-
 # 使い方
 
 - `@Pythia` とメンションをつけてメッセージを送信するだけです．
@@ -47,14 +45,15 @@ comment = false
 
 # モデル
 
-- [`openai/gpt-6-luna:floor`](https://openrouter.ai/openai/gpt-6-luna) を使用しています (`2026/10/06〜`)
+- [`anthropic/claude-haiku-5.5:floor`](https://openrouter.ai/anthropic/claude-haiku-5.5) を使用しています (`2026/10/08〜`)
   - **Modalities**: File / Image / Text → Text
   - **In / Out Price**: $0.10 / $0.50per 1M
-  - **Context**: 1.1M
+  - **Context**: 1.0M
 
 - 参考情報:
-  - [Introducing GPT‑6 Sol and Luna - OpenAI](https://openai.com/index/introducing-gpt-6-sol-and-luna/)
-  - [OpenAI: GPT-6 Luna Benchmarks - OpenRouter](https://openrouter.ai/openai/gpt-6-luna#benchmarks)
+  - [Introducing Claude Haiku 5.5 - Anthropic](https://www.anthropic.com/claude-haiku-5-5)
+  - [Claude Haiku 5.5 Models - Intelligence, Performance & Price Comparison - Artificial Analysis](https://artificialanalysis.ai/models/releases/claude-haiku-5-5)
+  - [OpenAI: Claude Haiku 5.5 Benchmarks - OpenRouter](https://openrouter.ai/anthropic/claude-haiku-5.5#benchmarks)
 
 # 設定
 
@@ -124,7 +123,8 @@ Pythia v3.1.0 時点では以下のツールが使用できます．
 - 🙆 **出来ること**:
   - 会話
   - 画像を理解すること (OCR を含む)
-    - PNG / JPEG / WebP / GIF に対応しています．直近 5 件の発言に添付された画像のうち，新しいものから最大 4 枚を読みます．1 枚 5 MB までです
+    - PNG / JPEG / WebP / GIF に対応しています．直近 5 件の発言に添付された画像のうち，新しいものから最大 4 枚を読みます．
+    - サイズが大きい添付ファイルはモデルに送信する前に自動的に圧縮されてから送信されます．
   - Web 検索・Web ページの読み取り
   - 現在日時の把握
 - 🙅 **出来ないこと**:
