@@ -4,7 +4,8 @@ date = 2025-11-08
 # updated =
 description = "GnuPG のセットアップについての備忘録"
 [taxonomies]
-tags = ["yubikey", "gnupg", "security"]
+categories = ["__02__Security"]
+tags = ["gnupg", "yubikey"]
 [extra]
 lang = "ja"
 toc = true

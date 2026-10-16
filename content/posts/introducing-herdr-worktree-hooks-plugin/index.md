@@ -4,7 +4,8 @@ date = 2026-08-12
 # updated =
 description = "Worktree の作成をフックして .env のコピーとセットアップコマンドの実行を行う Herdr プラグインと，その実装"
 [taxonomies]
-tags = ["ai", "herdr"]
+categories = ["__05__Tooling"]
+tags = ["herdr", "git-worktree", "claude-code"]
 [extra]
 lang = "ja"
 toc = true

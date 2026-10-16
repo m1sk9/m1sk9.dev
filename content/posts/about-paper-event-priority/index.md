@@ -4,6 +4,7 @@ date = 2026-02-01
 # updated =
 description = "EventPriority を適当に設定するな"
 [taxonomies]
+categories = ["__01__Minecraft"]
 tags = ["minecraft", "papermc"]
 [extra]
 lang = "ja"

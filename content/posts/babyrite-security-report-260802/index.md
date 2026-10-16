@@ -4,7 +4,8 @@ date = 2026-08-02
 # updated =
 description = "babyrite v1.4.2 で修正した 3 件の脆弱性についてのセキュリティレポート"
 [taxonomies]
-tags = ["rust", "discord", "security"]
+categories = ["__02__Security"]
+tags = ["babyrite", "rust", "discord", "vulnerability"]
 [extra]
 lang = "ja"
 toc = true

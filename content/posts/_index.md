@@ -10,6 +10,7 @@ generate_feeds = true
 [extra]
 lang = "ja"
 title = "Posts"
+categorized = true
 date_format = "%b %-d, %Y"
 
 back_to_top = true # show back-to-top button

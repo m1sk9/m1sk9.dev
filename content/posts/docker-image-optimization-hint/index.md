@@ -4,6 +4,7 @@ date = 2025-02-03
 # updated =
 description = "distroless 一択"
 [taxonomies]
+categories = ["__03__Infrastructure"]
 tags = ["rust", "docker"]
 [extra]
 lang = "ja"
