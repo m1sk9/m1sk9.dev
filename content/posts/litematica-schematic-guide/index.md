@@ -4,7 +4,8 @@ date = 2026-01-26
 # updated =
 description = "Litematica の設計図についてのプレイヤー向けガイド的なもの"
 [taxonomies]
-tags = ["dev", "litematica"]
+categories = ["__01__Minecraft"]
+tags = ["minecraft", "litematica"]
 [extra]
 lang = "ja"
 toc = true

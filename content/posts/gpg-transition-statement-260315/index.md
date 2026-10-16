@@ -4,7 +4,8 @@ date = 2026-03-15
 # updated =
 description = "Transition Statement Regarding GPG Public Key Update"
 [taxonomies]
-tags = ["security"]
+categories = ["__02__Security"]
+tags = ["gnupg"]
 [extra]
 lang = "en"
 toc = false

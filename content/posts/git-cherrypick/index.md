@@ -4,6 +4,7 @@ date = 2026-01-22
 # updated =
 description = "🍒"
 [taxonomies]
+categories = ["__04__Tooling"]
 tags = ["git"]
 [extra]
 lang = "ja"
