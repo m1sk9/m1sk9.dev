@@ -53,7 +53,7 @@ comment = false
 - 参考情報:
   - [Introducing Claude Haiku 5.5 - Anthropic](https://www.anthropic.com/claude-haiku-5-5)
   - [Claude Haiku 5.5 Models - Intelligence, Performance & Price Comparison - Artificial Analysis](https://artificialanalysis.ai/models/releases/claude-haiku-5-5)
-  - [OpenAI: Claude Haiku 5.5 Benchmarks - OpenRouter](https://openrouter.ai/anthropic/claude-haiku-5.5#benchmarks)
+  - [Anthropic: Claude Haiku 5.5 Benchmarks - OpenRouter](https://openrouter.ai/anthropic/claude-haiku-5.5#benchmarks)
 
 # 設定
 
