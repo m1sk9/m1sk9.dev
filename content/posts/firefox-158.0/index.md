@@ -89,13 +89,13 @@ h1 {
 - 画像リクエストの既定 Accept ヘッダーに `image/jxl` を追加
   - JPEG XL 対応に伴い，既定値は次のようになりました．
 
-```text
+```
 image/avif,image/jxl,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
 ```
 
   - サーバー側の content negotiation で JPEG XL を返せます．以下は Nginx の例です．
 
-```nginx
+```
 map $http_accept $img_ext {
     default      "";
     "~image/jxl" ".jxl";
@@ -164,7 +164,7 @@ if (adapter.features.has('float32-blendable')) {
   - カスタム平面の片側にある三角形や線の部分を切り落とせ，水面の反射や CAD の断面表示などに使えます．
   - デバイス作成時に `requiredFeatures: ['clip-distances']` が必要です．
 
-```wgsl
+```
 enable clip_distances;
 
 struct VSOut {
