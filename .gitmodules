@@ -1,4 +1,0 @@
-[submodule "themes/serene"]
-	path = themes/serene
-	url = git@github.com:m1sk9/serene.git
-	branch = custom
