@@ -1,0 +1,4 @@
+<div style="text-align: center; font-size: 0.80em; color: #888; margin-top: 8px;">
+    {{ body | trim | markdown(inline=true) | safe }}
+</div>
+{#- Must be separated from the image by a blank line: unlike raw HTML, shortcode output cannot interrupt a paragraph, so it would end up nested inside the image's <p>. #}
