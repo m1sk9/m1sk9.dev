@@ -469,16 +469,22 @@ a:focus-visible {
   }
 
   .mermaid {
-    background: #fff;
+    --pele-bg: var(--bg-color);
+    --pele-fg: var(--text-color);
+    --pele-muted: var(--text-pale-color);
+    --pele-line: var(--text-pale-color);
+    --pele-surface: var(--primary-decoration-color);
+    --pele-surface-alt: var(--primary-decoration-color);
+    --pele-border: var(--primary-pale-color);
+    --pele-accent: var(--primary-color);
+    --pele-font: var(--main-font);
+    --pele-radius: 0;
   }
 }
 
 body.dark .prose {
   img {
     filter: brightness(var(--dark-mode-img-brightness));
-  }
-  .mermaid {
-    filter: brightness(var(--dark-mode-chart-brightness));
   }
 }
 
@@ -1408,7 +1414,16 @@ body.post {
   }
 
   .mermaid {
-    background: #fff;
+    --pele-bg: var(--bg-color);
+    --pele-fg: var(--text-color);
+    --pele-muted: var(--text-pale-color);
+    --pele-line: var(--text-pale-color);
+    --pele-surface: var(--primary-decoration-color);
+    --pele-surface-alt: var(--primary-decoration-color);
+    --pele-border: var(--primary-pale-color);
+    --pele-accent: var(--primary-color);
+    --pele-font: var(--main-font);
+    --pele-radius: 0;
   }
 
   .giscus {

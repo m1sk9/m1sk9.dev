@@ -32,6 +32,7 @@ There is no test suite. CI (`.github/workflows/ci.yaml`) runs `zola build`, then
 
 - Site-specific `<head>` additions (OGP tags and the Discord component embed) go in `templates/_head_extend.html`. Scope per-page output with `current_path`, **not** `section`: `post.html` and `tags/list.html` set `section` to the posts section, so a `section.path` guard leaks onto every post and tag page.
 - Tera cannot `import` macros inside an included template, so partials included from `_base.html` must not use macros.
+- Mermaid diagrams are rendered by [pele](https://github.com/obsidianmd/pele), loaded from jsDelivr as `pele@1` (major-pinned, not vendored, so no `LICENSES/` entry). The mount script is duplicated in `post.html`, `prose.html` and `home.html`; keep them in sync. Zoom is forced on with `zoom: { always: true }` because pele's default `auto` only zooms diagrams that shrink to fit. Colors come from `--pele-*` variables mapped to the site tokens in `sass/main.scss`.
 - Color tokens for light/dark mode are CSS variables in `templates/_custom_css.html`; syntax highlighting themes are `highlight_themes/` → `static/hl-{light,dark}.css`.
 
 ## Deployment
