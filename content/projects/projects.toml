@@ -1,0 +1,54 @@
+[[collection]]
+type = "card"
+title = "m1sk9/babyrite"
+link = "https://github.com/m1sk9/babyrite"
+subtitle = "Rust"
+content = "A lightweight, fast citation message Discord bot."
+tags = ["discord-bot", "rust"]
+
+[[collection]]
+type = "card"
+title = "m1sk9/LunaticChat"
+link = "https://github.com/m1sk9/LunaticChat"
+subtitle = "Kotlin"
+content = "A next-generation chat plugin for Paper, Folia and Velocity."
+tags = ["minecraft", "paper-plugin", "folia-plugin", "velocity-plugin"]
+
+[[collection]]
+type = "card"
+title = "m1sk9/Pythia"
+link = "https://github.com/m1sk9/Pythia"
+subtitle = "Rust"
+content = "A Discord bot that bridges your server and LLM APIs."
+tags = ["discord-bot", "chatgpt", "claude", "llm-agents"]
+
+[[collection]]
+type = "card"
+title = "m1sk9/chime"
+link = "https://github.com/m1sk9/chime"
+subtitle = "Rust"
+content = "IaC-managed Discord webhook reminder. Reads a TOML schedule, runs as a long-lived process, and posts to Discord webhooks at the configured times."
+tags = ["discord", "infrastructure-as-code", "discord-webhook", "notification", "reminder", "scheduler", "webhook"]
+
+[[collection]]
+type = "card"
+title = "m1sk9/HoneyPot"
+link = "https://github.com/m1sk9/HoneyPot"
+subtitle = "Rust"
+content = "A honeypot that automatically filters out spam bots"
+
+[[collection]]
+type = "card"
+title = "m1sk9/herdr-worktree-hooks-plugin"
+link = "https://github.com/m1sk9/herdr-worktree-hooks-plugin"
+subtitle = "Rust"
+content = "A plugin that adds customizable hooks to Herdr's Worktree"
+tags = ["herdr-plugin"]
+
+[[collection]]
+type = "card"
+title = "pulsate-dev/pulsate"
+link = "https://github.com/pulsate-dev/pulsate"
+subtitle = "TypeScript"
+content = "Easy-to-change, faster, developer friendly next generation decentralized social media."
+tags = ["activitypub", "fediverse", "microblog", "pulsate", "social-media"]
