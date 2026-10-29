@@ -1,7 +1,7 @@
 +++
 title = "Firefox 159.0"
 date = 2026-10-28
-# updated =
+updated = 2026-10-29
 description = "Release 159.0 · ESR 153.6.0esr · Beta 160.0b1 · Developer Edition 160.0b1 · Nightly 161.0a1"
 [taxonomies]
 categories = ["__04__Firefox"]
@@ -16,6 +16,8 @@ mermaid = true
 [Firefox 159 - 2026/10/27 に Release チャンネルユーザー向けにリリースされています](https://www.firefox.com/en-US/firefox/159.0/releasenotes/)
 
 (Release 159.0 · ESR 153.6.0esr · Beta 160.0b1 · Developer Edition 160.0b1 · Nightly 161.0a1)
+
+**Edit (2026/10/29 16:51)**: `let`, `const` およびクラス変数の再宣言に関する変更追加
 
 ## Features
 
@@ -65,6 +67,9 @@ mermaid = true
 ## Developer
 
 [Firefox 159 release notes for developers (Stable)](https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/159)
+
+- DevTools 内にある Web Console にて， `let`, `const` およびクラス変数の再宣言が可能になりました
+  - これにより，スニペットを編集して再実行しても再宣言エラーが発生しないようになりました
 
 ### CSS
 
