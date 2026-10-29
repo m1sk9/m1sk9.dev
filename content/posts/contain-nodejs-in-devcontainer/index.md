@@ -97,16 +97,14 @@ FROM node:24.11.1
 起動するには VSCode のコマンドパレットから "Dev Containers: Reopen in Container" を実行します．
 
 ![](vscode-1.png)
-<div style="text-align: center; font-size: 0.80em; color: #888; margin-top: 8px;">
-    イメージの更新や設定変更をしたら "Rebuild and Reopen in Container" を実行しよう
-</div>
+
+{% caption() %}イメージの更新や設定変更をしたら "Rebuild and Reopen in Container" を実行しよう{% end %}
 
 すると Docker Image のビルド， DevContainer のインストールが行われ，VSCode がコンテナに接続します．
 
 ![](vscode-2.png)
-<div style="text-align: center; font-size: 0.80em; color: #888; margin-top: 8px;">
-    パッと見は SSH Remote と同じ
-</div>
+
+{% caption() %}パッと見は SSH Remote と同じ{% end %}
 
 試しに以下のような静的テキストを返す簡易 HTTP サーバーを作成してみます．
 
@@ -129,9 +127,8 @@ server.listen(PORT, () => {
 ![](vscode-3.png)
 
 ![](firefox.png)
-<div style="text-align: center; font-size: 0.80em; color: #888; margin-top: 8px;">
-    簡単だね!
-</div>
+
+{% caption() %}簡単だね!{% end %}
 
 # node_modules も DevContainer に閉じ込めよう
 
@@ -140,9 +137,8 @@ Node.js のプロジェクトでは `node_modules` ディレクトリが大量�
 デフォルトの DevContainer の挙動では，ホストのプロジェクトディレクトリがコンテナ内にマウントされるため，`node_modules` もホストに作成されてしまいます．
 
 ![](nodejs-meme.png)
-<div style="text-align: center; font-size: 0.80em; color: #888; margin-top: 8px;">
-    node_modules black hole
-</div>
+
+{% caption() %}node_modules black hole{% end %}
 
 これを防ぐ方法として Docker の Volue Trick を利用して，`node_modules` をコンテナ内に閉じ込める方法があります．
 

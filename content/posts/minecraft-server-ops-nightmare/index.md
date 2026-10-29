@@ -52,9 +52,8 @@ Minecraft サーバでお金を稼ぐことは難しいから，基本的に Min
 [Minecraft End(er)-User License Agreement (“EULA”)](https://www.minecraft.net/en-us/eula)
 
 ![](./minecraft-eula.png)
-<div style="text-align: center; font-size: 0.80em; color: #888; margin-top: 8px;">
-    はい今嫌な顔したそこの Minecraft 関係者
-</div>
+
+{% caption() %}はい今嫌な顔したそこの Minecraft 関係者{% end %}
 
 まあようは利用規約みたいなものなんだけど，この EULA の中には ([Minecraft Usage Guidelines](https://www.minecraft.net/en-us/usage-guidelines)) Minecraft を使って商標活動(平たく言えば金稼ぎ)をする上でのガイドラインが書いてある．
 

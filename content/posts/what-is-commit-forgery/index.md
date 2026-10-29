@@ -96,9 +96,8 @@ flowchart LR
 結果として，偽造されたコミットには Verified が付かず，署名のある本物のコミットと区別できます．
 
 ![私の名前で偽造したコミットのページ．本来付くはずの Verified バッジが表示されていない](./github-fake-m1sk9-commit-page.png)
-<div style="text-align: center; font-size: 0.80em; color: #888; margin-top: 8px;">
-    本来ついているはずの Verified バッジが付かない
-</div>
+
+{% caption() %}本来ついているはずの Verified バッジが付かない{% end %}
 
 `git log --show-signature` の出力も変わります．上が偽造したコミット，下が署名付きの本物のコミットです．本物のほうだけ `Good signature` の行が出力されます．
 

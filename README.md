@@ -20,6 +20,11 @@ mise install
 zola serve
 ```
 
+## Writing
+
+- [Shortcodes](docs/shortcodes.md)
+- [Front matter](docs/front-matter.md)
+
 ## Build
 
 ```sh

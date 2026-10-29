@@ -26,7 +26,8 @@ There is no test suite. CI (`.github/workflows/ci.yaml`) runs `zola build`, then
 - Posts default to `lang = "ja"`; the home page (`content/_index.md`) is English.
 - Categories use a `__NN__Label` prefix to control group order on the posts index (`categorized = true` in `content/posts/_index.md`). The canonical mapping is the `category_label` function in `x` — add new categories there to keep numbering consistent.
 - `content/pythia/` is a standalone page rendered with `prose.html`.
-- Shortcodes (callouts such as `note`/`tip`/`warning`, `figure`, `mermaid`, `detail`, `quote`, `collection`) are in `templates/shortcodes/`.
+- Shortcodes (callouts such as `note`/`tip`/`warning`, `figure`, `caption`, `mermaid`, `detail`, `quote`, `collection`) are in `templates/shortcodes/`. Usage for authors is documented in `docs/shortcodes.md` and `docs/front-matter.md`; update them when adding or changing a shortcode or `[extra]` flag.
+- Image captions use `{% caption() %}text{% end %}` on the line after the image, **separated by a blank line** — otherwise the output is nested inside the image's `<p>`.
 
 ## Templates
 
